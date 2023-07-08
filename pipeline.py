@@ -15,8 +15,8 @@ from multiprocessing import Process
 
 import numpy as np
 
-from utils.yacs import Config
-from modules.basic_module import MODULE_DEPENDENCIES
+from thirdparty.openISP.utils.yacs import Config
+from thirdparty.openISP.modules.basic_module import MODULE_DEPENDENCIES
 
 
 class Pipeline:
